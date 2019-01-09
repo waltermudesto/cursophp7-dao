@@ -27,14 +27,23 @@ $aluno = new Usuario("aluno", "@lun0");
 $aluno->insert();
 
 echo $aluno;*/
-
+/*
 //Fazendo update
-
 $usuario = new Usuario();
 
 $usuario->loadById(6);
 
 $usuario->update("tecnet", "tecnet*2019");
+
+echo $usuario;*/
+
+//Deletando um Usuario
+
+$usuario = new Usuario();
+
+$usuario->loadById(7);
+
+$usuario->delete();
 
 echo $usuario;
 

@@ -20,13 +20,13 @@ require_once("config.php");
 //$usuario->login("beth", "paiteamosempre");
 //echo $usuario;
 
-/*
+
 //Carrega insert de um novo usuario
 $aluno = new Usuario("aluno", "@lun0");
 
 $aluno->insert();
 
-echo $aluno;*/
+echo $aluno;
 /*
 //Fazendo update
 $usuario = new Usuario();
@@ -37,14 +37,14 @@ $usuario->update("tecnet", "tecnet*2019");
 
 echo $usuario;*/
 
+/*
 //Deletando um Usuario
-
 $usuario = new Usuario();
 
 $usuario->loadById(7);
 
 $usuario->delete();
 
-echo $usuario;
+echo $usuario;*/
 
 ?>

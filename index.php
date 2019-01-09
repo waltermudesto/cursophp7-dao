@@ -20,16 +20,22 @@ require_once("config.php");
 //$usuario->login("beth", "paiteamosempre");
 //echo $usuario;
 
-
+/*
 //Carrega insert de um novo usuario
-
-$aluno = new Usuario();
-
-$aluno->setDeslogin("aluno");
-$aluno->setDessenha("@lun0");
+$aluno = new Usuario("aluno", "@lun0");
 
 $aluno->insert();
 
-echo $aluno;
+echo $aluno;*/
+
+//Fazendo update
+
+$usuario = new Usuario();
+
+$usuario->loadById(6);
+
+$usuario->update("tecnet", "tecnet*2019");
+
+echo $usuario;
 
 ?>
